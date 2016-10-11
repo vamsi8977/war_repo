@@ -59,9 +59,10 @@
     </dependency>
   </dependencies>
   <build>
-	  <resources>
+	  <sourceDirectory>src/main</sourceDirectory>
+    <resources>
         <resource>
-            <directory>src/main/groovy</directory>
+            <directory>groovy</directory>
         </resource>
     </resources>
     <plugins>
